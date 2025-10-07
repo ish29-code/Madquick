@@ -27,7 +27,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     console.error('TOTP setup error:', err);
     res.status(500).json({ error: 'Failed to setup TOTP' });
   }
-}
+};
 */
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { authenticator } from 'otplib';
