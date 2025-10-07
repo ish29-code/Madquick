@@ -1,0 +1,13 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/api/totp/setup": "pages/api/totp/setup.js",
+  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
+  "/api/totp/verify": "pages/api/totp/verify.js",
+  "/vault": "pages/vault.js",
+  "/api/2fa": "pages/api/2fa.js",
+  "/api/vault": "pages/api/vault.js",
+  "/api/signup": "pages/api/signup.js"
+}
