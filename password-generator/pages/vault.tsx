@@ -1,7 +1,7 @@
 // pages/vault.tsx
 import { useEffect, useState } from 'react';
-import { encrypt, decrypt as safeDecrypt } from './utils/crypto';
-import { generatePassword } from './utils/password';
+import { encrypt, decrypt as safeDecrypt } from '../utils/crypto';
+import { generatePassword } from '../utils/password';
 import { FaCopy, FaTrash, FaEdit, FaMoon, FaSun } from 'react-icons/fa';
 import QRCode from 'react-qr-code';
 
